@@ -10,11 +10,11 @@ let isBig = false
 
 
 loadSprite('bloco', "/img/block-brown.png")
-loadSprite('goomba', '/img/block-brown.png') 
+loadSprite('goomba', '/img/enemy.png') 
 loadSprite('surpresa', '/img/block-brown.png')
-loadSprite('unboxed', '/img/block-brown.png')
-loadSprite('moeda', '/img/block-brown.png')
-loadSprite('cogumelo', '/img/block-brown.png')
+loadSprite('unboxed', '/img/prize.png')
+loadSprite('moeda', '/img/coin.png')
+loadSprite('cogumelo', '/img/cogumelo.png')
 
 loadSprite("mario", '/img/mario-sheet.png', {
     sliceX: 6,
@@ -33,15 +33,15 @@ loadSprite("mario", '/img/mario-sheet.png', {
 });
 
 loadSprite('tijolo', '/img/block-brown.png') // tijolo
-loadSprite('tubo-top-left', '/img/block-brown.png') // tubo esquerdo
-loadSprite('tubo-top-right', '/img/block-brown.png') // tubo direito
-loadSprite('tubo-bottom-left', '/img/block-brown.png') // tubo parte de baixo esquerdo
-loadSprite('tubo-bottom-right', '/img/block-brown.png') // tubo parte de baixo direito
+loadSprite('tubo-top-left', '/img/portal.png') // tubo esquerdo
+loadSprite('tubo-top-right', '/img/portal.png') // tubo direito
+loadSprite('tubo-bottom-left', '/img/portal.png') // tubo parte de baixo esquerdo
+loadSprite('tubo-bottom-right', '/img/portal.png') // tubo parte de baixo direito
 
-loadSprite('blue-bloco', '/img/block-brown.png') // bloco azul
-loadSprite('blue-tijolo', '/img/block-brown.png') // tijolo azul
-loadSprite('blue-aco', '/img/block-brown.png') // bloco de aço azul
-loadSprite('blue-goomba', '/img/block-brown.png')
+loadSprite('blue-bloco', '/img/block.png') // bloco azul
+loadSprite('blue-tijolo', '/img/block.png') // tijolo azul
+loadSprite('blue-aco', '/img/block.png') // bloco de aço azul
+loadSprite('blue-goomba', '/img/enemy.png')
 
 
 scene("game", ({ level, score, big }) => {
